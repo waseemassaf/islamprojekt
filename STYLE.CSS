@@ -1,0 +1,215 @@
+/* Importera typsnitt från Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;1,300&family=Open+Sans:wght@300;600&family=Oswald:wght@200&display=swap');
+
+/* Återställ standardmarginaler, fyllningar och box-modell för alla element */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ändra utseendet på hela sidans kropp */
+body
+{
+    background-color: #fff; /* Bakgrundsfärg */
+    line-height: 1.4rem; /* Mellan radernas avstånd */
+    font-family: serif; /* Typsnittsfamilj */
+}
+
+/* Allt innehåll (header + article) inställningar på sidan */
+.main
+{
+    margin: 16px auto; /* Avstånd från kanten */
+    background: #fff; /* Bakgrundsfärg */
+    width: 96%; /* Bredd på huvudinnehållet */
+    max-width: 700px; /* Maximal bredd */
+    padding: 8px; /* Inre fyllning */
+    border-radius: 8px; /* Avrundade hörn */
+}
+
+/* Ändra standardtextstorleken för hela dokumentet */
+html
+{
+    font-size: 100%;
+}
+
+/* Inställningar för vanliga textstycken */
+p
+{
+    font-size: 1.2rem; /* Textstorlek */
+    margin-bottom: 1.68rem; /* Avstånd från efterföljande element */
+}
+
+/* Inställningar för rubriker av typen h1 */
+h1
+{
+    text-transform: uppercase; /* Omvandla text till versaler */
+    font-family: 'Kanit', sans-serif; /* Typsnittsfamilj */
+    font-size: 2.4rem; /* Textstorlek */
+    margin-bottom: 1.68rem; /* Avstånd från efterföljande element */
+}
+
+/* Inställningar för navigationsmenyn */
+.nav
+{
+    display: flex; /* Flexbox-layout */
+    flex-direction: row; /* Horisontell riktning */
+    justify-content: space-between; /* Jämna utrymmet mellan element */
+    background-color: #adee66; /* Bakgrundsfärg */
+    margin-bottom: 3rem; /* Avstånd från efterföljande element */
+    padding: 5px; /* Inre fyllning */
+    font-size: 1.2rem; /* Textstorlek */
+    margin-bottom: 100px; /* Öka avståndet mellan varje länk */
+    margin-right: 1px; /* Öka avståndet mellan varje länk */
+    margin-left: 10px; /* Öka avståndet mellan varje länk */
+
+}
+
+/* Inställningar för länkar i navigationsmenyn */
+.nav a {
+    text-decoration: none; /* Ingen understrykning */
+    color: #000; /* Textfärg */
+    font-size: 1.8rem; /* Textstorlek */
+}
+
+/* Hover-effekt för länkar i navigationsmenyn */
+.nav a:hover {
+    text-decoration: underline; /* Understrykning vid hover */
+}
+
+
+/* Inställningar för bilder */
+img
+{
+    max-width: 100%; /* Begränsa bildbredden till förälderelementets bredd */
+
+}
+
+
+.välkomnestext {
+    color: #ea0909; /* Textfärg */
+    display: flex; /* Flexbox-layout */
+    flex-direction: row; /* Horisontell riktning */
+    justify-content: space-between; /* Jämna utrymmet mellan element */
+    margin-bottom: 2rem; /* Avstånd från efterföljande element, dvs avstånd mellan detta stycket och nästa och förra*/
+    padding: 8px; /* Inre fyllning (ihoptryckhet) */
+    line-height: 1.6; /* ändra avståndet mellan raderna */
+
+}
+
+
+/* Styling för h2-rubrik med fetstilt röd text */
+.h12 {
+    color: rgb(6, 183, 83); /* Textfärg röd */
+    font-weight: bold; /* Fetstilt text */
+    margin-left: 180px; /* Öka avståndet mellan varje länk */
+}
+
+
+
+
+
+
+/*###########################################################################################*/
+/*QURAN.html */
+
+
+.Quran-h1{
+    margin: 16px auto; /* Avstånd från kanten */
+    background: #fff8c0; /* Bakgrundsfärg */
+    width: 96%; /* Bredd på huvudinnehållet */
+    max-width: 700px; /* Maximal bredd */
+    padding: 1px; /* Inre fyllning */
+    border-radius: 8px; /* Avrundade hörn */
+    margin-bottom: 2rem; /* Avstånd från efterföljande element, dvs avstånd mellan detta stycket och nästa och förra*/
+    line-height: 1.5; /* ändra avståndet mellan raderna */
+
+    font-size: 1.95rem; /* Textstorlek */
+
+    color: rgb(0, 0, 0); /* Textfärg röd */
+
+
+}
+
+
+
+.soar{
+    display: inline-flex; /* Flexbox-layout i en rad */
+    flex-direction: column; /* Horisontell riktning */
+    justify-content: space-between; /* Jämna utrymmet mellan element */
+    background-color: #fa7070; /* Bakgrundsfärg */
+    padding: 5px; /* Inre fyllning */
+    font-size: 1.2rem; /* Textstorlek */
+    line-height: 3; /* ändra avståndet mellan raderna */
+
+    margin-bottom: 100px; /* Öka avståndet mellan varje länk */
+    margin-left: 600px; /* Öka avståndet mellan varje länk */
+}
+
+
+/*###########################################################################################*/
+/*soar ALFATIHA*/
+
+.TAWITHA {
+    margin: 16px auto; /* Avstånd från kanten */
+    font-size: 3.5rem; /* Textstorlek */
+    background-color: #3fe098; /* Bakgrundsfärg */
+    display: flex; /* Flexbox-layout */
+    align-items: center; /* Centrera vertikalt */
+    justify-content: center; /* Centrera horisontellt */
+    padding: 20px; /* Utrymme runt texten */
+    margin-bottom: 5rem; /* Avstånd från efterföljande element, dvs avstånd mellan detta stycket och nästa och förra*/
+
+}
+
+
+
+.ALFATIHATEXT{
+    margin: 16px auto; /* Avstånd från kanten */
+    display: flex; /* Flexbox-layout (mitt i sidan) */ 
+    align-items: center; /* Centrera vertikalt (mitt i sidan) */
+    justify-content: center; /* Centrera horisontellt (mitt i sidan) */
+
+
+    background: #ffeabe; /* Bakgrundsfärg */ 
+    padding: 20px; /* Inre fyllning */
+    font-size: 2.0rem; /* Textstorlek */
+    line-height: 2.0; /* ändra avståndet mellan raderna */
+    margin-bottom: 5rem; /* Avstånd från efterföljande element, dvs avstånd mellan detta stycket och nästa och förra*/
+
+
+}
+
+
+.SADAKAALLAH{
+    margin: 16px auto; /* Avstånd från kanten */
+    font-size: 3.5rem; /* Textstorlek */
+    background-color: #e82828; /* Bakgrundsfärg */
+    display: flex; /* Flexbox-layout */
+    align-items: center; /* Centrera vertikalt */
+    justify-content: center; /* Centrera horisontellt */
+    padding: 20px; /* Utrymme runt texten */
+    margin-bottom: 5rem; /* Avstånd från efterföljande element, dvs avstånd mellan detta stycket och nästa och förra*/
+
+}
+
+
+
+.JIZE{
+    margin: 16px auto; /* Avstånd från kanten */
+    font-size: 2.8rem; /* Textstorlek */
+    background-color: #9c5ff7; /* Bakgrundsfärg */
+    display: flex; /* Flexbox-layout */
+    align-items: center; /* Centrera vertikalt */
+    justify-content: center; /* Centrera horisontellt */
+    padding: 20px; /* Utrymme runt texten */
+    margin-bottom: 5rem; /* Avstånd från efterföljande element, dvs avstånd mellan detta stycket och nästa och förra*/
+} 
+
+
+.albakarapicture
+{
+    margin-left: 130px; /* Öka avståndet mellan varje länk */
+}
+
+/*###########################################################################################*/
